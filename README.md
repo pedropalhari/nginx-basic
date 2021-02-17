@@ -3,11 +3,13 @@ Dois arquivos conf, idiotas, do nginx que eu uso diariamente pra fazer proxy rev
 
 * Estático: `curl https://raw.githubusercontent.com/pedropalhari/nginx-basic/master/example-page.conf > page.conf`
 * Proxy reverso: `curl https://raw.githubusercontent.com/pedropalhari/nginx-basic/master/example-server.conf > server.conf`
+* Proxy websocket: `curl https://raw.githubusercontent.com/pedropalhari/nginx-basic/master/example-websocket.conf > websocket.conf`
 
 Ou:
 
 * Estático: `npx degit pedropalhari/nginx-basic/example-page.conf page.conf`
 * Proxy reverso: `npx degit pedropalhari/nginx-basic/example-server.conf server.conf`
+* Proxy websocket: `npx degit pedropalhari/nginx-basic/example-websocket.conf websocket.conf`
 
 Aproveitando que já estamos aqui:
 
