@@ -13,10 +13,10 @@ Ou:
 
 Aproveitando que já estamos aqui:
 
-* Rotear uma porta do servidor para mim:
-* `ssh -R 5050:localhost:5050 root@palhari.dev`
-* palhari.dev:5050 agora abre o que roda no meu localhost:5050
+* Rotear uma porta do servidor para minha máquina `SERVER --> LOCAL`:
+* `ssh -R <PORTA_NO_SERVER>:localhost:<PORTA_LOCAL> root@palhari.dev`
+* `palhari.dev:<PORTA_NO_SERVER>` agora abre o que roda no meu `localhost:<PORTA_LOCAL>`
 
-* Rotear uma porta do minha para um servidor:
-* `ssh -L 5050:localhost:5050 root@palhari.dev`
-* localhost:5050 agora abre o roda no palhari.dev:5050
+* Rotear uma porta da minha máquina para uma do servidor `LOCAL --> SERVER`:
+* `ssh -L <PORTA_LOCAL>:localhost:<PORTA_NO_SERVER> root@palhari.dev`
+* `localhost:<PORTA_LOCAL>`agora abre o roda no `palhari.dev:<PORTA_NO_SERVER>`
